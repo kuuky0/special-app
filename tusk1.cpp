@@ -8,6 +8,7 @@ int main()
 	std::ofstream file("tut.txt", std::ios::app );
 	std::string name, name1, date;
 	int deposit;
+	cout << "sam pidor" << endl;
 	std::cin >> name >> name1 >> date >> deposit;
 	file << name << " " << name1 << " " << date << " " << deposit << std::endl;
 	file.close();
