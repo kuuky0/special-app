@@ -11,4 +11,5 @@ int main()
 	std::cin >> name >> name1 >> date >> deposit;
 	file << name << " " << name1 << " " << date << " " << deposit << std::endl;
 	file.close();
+	cout << "huy" << endl;
 }
