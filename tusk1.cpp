@@ -13,4 +13,8 @@ int main()
 	file << name << " " << name1 << " " << date << " " << deposit << std::endl;
 	file.close();
 	cout << "huy" << endl;
+	cout << "huy" << endl;
+	cout << "huy" << endl;
+	cout << "huy" << endl;
+
 }
