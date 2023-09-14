@@ -1,8 +1,8 @@
 #include <iostream>
 #include <threads>
+#include <mutex>
 
 int main (){
-  std::cout << "Hello world" << endl;
-  std::cout << "hello eberyone" << std::endl;
-  std::cout << "WOA" << std::endl;
+	int b = 20;
+	std::cout << b << std::endl;
 }
